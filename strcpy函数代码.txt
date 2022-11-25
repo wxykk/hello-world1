@@ -8,3 +8,6 @@ char* StrCpy(char* src)
      char* strcpy(char* p, const char* len);
      
 }
+/*
+remove edit B20032307王星宇
+*/
