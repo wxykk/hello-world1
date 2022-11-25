@@ -1,8 +1,10 @@
 char* StrCpy(char* src)
 {
-    int len;
+    int len=0;
     printf("输入字符串: ");
     scanf("%s", src);
+    while(str[len]!='\0')
+    len++;
     len = strlen(src);
      char *p = (char *)malloc( sizeof(char)+1 );
      char* strcpy(char* p, const char* len);
